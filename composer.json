@@ -8,11 +8,13 @@
     ],
     "type": "project",
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "catfan/medoo": "^1.7"
     },
     "autoload": {
         "psr-4": {
-            "Oxyrealm\\Aether\\": "app/"
+            "Oxyrealm\\Aether\\": "app/",
+            "Oxyrealm\\Modules\\": "modules/"
         },
         "classmap": [
             "database/migrations/"
